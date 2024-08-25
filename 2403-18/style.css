@@ -1,0 +1,29 @@
+/*------------css Common Start---------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*--------------css common end---------*/
+
+#light{
+    height: 100vh;
+    background: #252323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#light button{
+    padding:10px 30px;
+    cursor: pointer;
+    
+}
